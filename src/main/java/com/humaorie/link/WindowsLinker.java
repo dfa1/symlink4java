@@ -14,7 +14,7 @@ public class WindowsLinker implements Linker {
         // this function is available both on Vista and XP;
         // CreateSymbolicLink only on Vista
 
-        public int CreateHardLinkA(String dst, String src, Pointer mustBeNull);
+        int CreateHardLinkA(String dst, String src, Pointer mustBeNull);
     }
 
     @Override
